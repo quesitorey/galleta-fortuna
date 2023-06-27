@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,300;0,400;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+body{
+  margin: 3rem;  
+}
+
+p{
+  -webkit-text-stroke: 1px orange;
+  font-size: 2.8rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+button{
+  color: white;
+  border: 1px solid white;
+  background-color: orange;
+  padding: .7rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-align: center;
+  margin: 2rem;
+}
+button:hover{
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  width: 30rem;
+  height: auto;
+  padding: 3rem;
+}
+
+.container-two{
+  display: flex;
+  justify-content: center;
+}
+.box-two{
+  
+}
